@@ -1,0 +1,46 @@
+@charset "utf-8";
+body, ul, h1{margin: 0;padding: 0;}
+ul{list-style: none;}
+h1{font-size: 100%;}
+a:link, a:visited, a:hover, a:active{color: inherit;text-decoration: none;}
+img{border: none;vertical-align: top;}
+header, nav{display: block;}
+
+body{font-family: "맑은 고딕", "Malgun Gothic";font-size: 16px;color: #333333;}
+/* #header01 */
+#header01{height: 60px;background: #eeeeee;}
+#header01 .wrap{width: 1200px;height: 100%;margin: 0 auto;padding: 0 10px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;background: #aaaaaa;}
+#header01 .wrap .logo{float: left;padding: 10px 0;}
+#header01 .wrap .logo a{display: block;}
+#header01 .wrap .logo a img{display: block;height: 40px;}
+
+#header01 .wrap #gnb{float: right;}
+#header01 .wrap #gnb > ul{}
+#header01 .wrap #gnb > ul:after{content: "";display: block;clear: both;}
+#header01 .wrap #gnb > ul > li{float: left;margin: 0 15px;background: #aaaaff;}
+#header01 .wrap #gnb > ul > li:last-child{margin-right: 0;}
+#header01 .wrap #gnb > ul > li > a{display: block;line-height: 60px;text-align: center;font-weight: bold;}
+#header01 .wrap #gnb ul > li > ul{background: #aaaaaa;display: none;}
+#header01 .wrap #gnb > ul > li:hover > ul{display: block;}
+#header01 .wrap #gnb ul > li > ul > li{}
+#header01 .wrap #gnb ul > li > ul > li > a{display: block;line-height: 40px;text-align: center;font-size: 14px;}
+
+/* #header02 */
+#header02{width: 100%;height: 60px;background: #dddddd;}
+#header02 .wrap{width: 1200px;height: 100%;margin: 0 auto;background: #cccccc;padding: 0 10px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+#header02 .wrap .logo{float: left;padding: 10px 0;}
+#header02 .wrap .logo a{display: block;}
+#header02 .wrap .logo a img{display: block;height: 40px;}
+
+#header02 .wrap #gnb{float: right;}
+#header02 .wrap #gnb > ul{}
+#header02 .wrap #gnb > ul:after{content: "";display: block;clear: both;}
+#header02 .wrap #gnb > ul > li{float: left;}
+#header02 .wrap #gnb > ul > li > a{display: block;line-height: 60px;font-size: 16px;font-weight: bold;text-transform: capitalize;color: #333333;padding: 0 15px;}
+#header02 .wrap #gnb > ul > li:last-child > a{padding-right: 0;}
+#header02 .wrap #gnb > ul > li > ul{text-align: center;opacity: 0;background: #dddddd;}
+#header02 .wrap #gnb > ul:hover > li > ul{min-height: 120px;opacity: 1;}
+#header02 .wrap #gnb > ul > li > ul > li{}
+#header02 .wrap #gnb > ul > li > ul > li > a{display: block;line-height: 40px;font-size: 14px;text-transform: capitalize;color: #333333;background: #dddddd;}
+
+/* #header03 */

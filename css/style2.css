@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* #ex_01 */
+#ex_01{width: 100%;height: 60px;background: #dddddd;}
+#ex_01 .wrap{width: 1200px;height: 100%;margin: 0 auto;background: #cccccc;padding: 0 10px;box-sizing: border-box;}
+#ex_01 .wrap .logo{float: left;padding: 10px 0;}
+#ex_01 .wrap .logo a{display: block;}
+#ex_01 .wrap .logo a img{display: block;height: 40px;}
+
+#ex_01 .wrap #gnb{float: right;}
+#ex_01 .wrap #gnb > ul{}
+#ex_01 .wrap #gnb > ul > li{float: left;margin: 0 15px;}
+#ex_01 .wrap #gnb > ul > li:last-child{margin-right: 0;}
+#ex_01 .wrap #gnb > ul > li > a{display: block;line-height: 60px;font-size: 16px;font-weight: bold;text-transform: capitalize;color: #333333;}
+#ex_01 .wrap #gnb > ul > li > ul{text-align: center;/* display: none; */max-height: 0;opacity: 0;overflow: hidden;} /* overflow: hidden; 드르륵의 느낌! */
+#ex_01 .wrap #gnb > ul > li:hover > ul{max-height: 120px;opacity: 1;transition: max-height 0.5s, opacity 0.5s;/* display: block; */}
+/* max-height: ; 최대 높이값을 지정하기 때문에 내부에 실존하는 높이값과는 다를 수 있음 */
+#ex_01 .wrap #gnb > ul > li > ul > li{}
+#ex_01 .wrap #gnb > ul > li > ul > li > a{display: block;line-height: 40px;font-size: 14px;text-transform: capitalize;color: #333333;background: #dddddd;}
+
+/* #ex_04 */
+#ex_04{position: relative;width: 100%;height: 60px;background: #dddddd;}
+#ex_04 .wrap{width: 1200px;height: 100%;margin: 0 auto;background: #cccccc;padding: 0 10px;box-sizing: border-box;}
+#ex_04 > .wrap .logo{float: left;padding: 10px 0;}
+#ex_04 > .wrap .logo a{display: block;}
+#ex_04 > .wrap .logo a img{display: block;height: 40px;}
+
+#ex_04 > .wrap #gnb{float: right;}
+#ex_04 > .wrap #gnb > ul{}
+#ex_04 > .wrap #gnb > ul:after{content: "";display: block;clear: both;}
+#ex_04 > .wrap #gnb > ul > li{float: left;margin: 0 15px;width: 80px;}
+#ex_04 > .wrap #gnb > ul > li:last-child{margin-right: 0;}
+#ex_04 > .wrap #gnb > ul > li > a{display: block;line-height: 60px;font-size: 16px;font-weight: bold;color: #333333;text-transform: capitalize;text-align: center;}
+
+#ex_04 > .wrap #gnb > .sub{position: absolute;top: 60px;left: 0;width: 100%;height: 0;overflow: hidden;background: #cccccc;/* display: none; */}
+#ex_04 > .wrap #gnb:hover > .sub{height: 120px;transition: height 0.5s;/* display: block; */}
+#ex_04 > .wrap #gnb > .sub > .wrap{height: 100%;}
+#ex_04 > .wrap #gnb > .sub > .wrap > .r_box{float: right;}
+#ex_04 > .wrap #gnb > .sub > .wrap > .r_box > ul{float: left;width: 80px;margin: 0 15px;}
+#ex_04 > .wrap #gnb > .sub > .wrap > .r_box > ul:last-child{margin-right: 0;}
+#ex_04 > .wrap #gnb > .sub > .wrap > .r_box > ul > li{}
+#ex_04 > .wrap #gnb > .sub > .wrap > .r_box > ul > li > a{display: block;line-height: 40px;font-size: 14px;color: #333333;text-align: center;text-transform: capitalize;}
+
+
+
+
+
+
